@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4200:4200"
+    volumes:
+      - ./src:/app/src
+      - ./db.json:/app/db.json
+      - ./package.json:/app/package.json
+      - ./package-lock.json:/app/package-lock.json
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    command: sh -c "ng serve --host 0.0.0.0 --poll=2000 --disable-host-check --watch"
+    depends_on:
+      - api
+    networks:
+      - app-network
+
+  api:
+    image: node:18-alpine
+    working_dir: /api
+    volumes:
+      - ./db.json:/api/db.json
+    command: sh -c "npm install -g json-server@0.17.4 && json-server --host 0.0.0.0 --watch db.json"
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge 

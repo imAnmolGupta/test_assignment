@@ -1,0 +1,184 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe", 
+      "address": "123 Main St",
+      "phone": "555-0123",
+      "number": "EMP001",
+      "position": "Software Engineer"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "address": "456 Oak Ave", 
+      "phone": "555-0124",
+      "number": "EMP002",
+      "position": "Project Manager"
+    },
+    {
+      "id": 3,
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "address": "789 Pine Rd",
+      "phone": "555-0125",
+      "number": "EMP003", 
+      "position": "UX Designer"
+    },
+    {
+      "id": 4,
+      "firstName": "Sarah",
+      "lastName": "Williams",
+      "address": "321 Elm St",
+      "phone": "555-0126",
+      "number": "EMP004",
+      "position": "Business Analyst"
+    },
+    {
+      "id": 5,
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "address": "654 Maple Dr",
+      "phone": "555-0127",
+      "number": "EMP005",
+      "position": "DevOps Engineer"
+    },
+    {
+      "id": 6,
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "address": "987 Cedar Ln",
+      "phone": "555-0128",
+      "number": "EMP006",
+      "position": "QA Engineer"
+    },
+    {
+      "id": 7,
+      "firstName": "David",
+      "lastName": "Miller",
+      "address": "741 Birch Rd",
+      "phone": "555-0129",
+      "number": "EMP007",
+      "position": "Frontend Developer"
+    },
+    {
+      "id": 8,
+      "firstName": "Lisa",
+      "lastName": "Wilson",
+      "address": "852 Spruce Ave",
+      "phone": "555-0130",
+      "number": "EMP008",
+      "position": "Backend Developer"
+    },
+    {
+      "id": 9,
+      "firstName": "James",
+      "lastName": "Taylor",
+      "address": "963 Ash St",
+      "phone": "555-0131",
+      "number": "EMP009",
+      "position": "System Architect"
+    },
+    {
+      "id": 10,
+      "firstName": "Jennifer",
+      "lastName": "Anderson",
+      "address": "159 Walnut Blvd",
+      "phone": "555-0132",
+      "number": "EMP010",
+      "position": "Product Owner"
+    },
+    {
+      "id": 11,
+      "firstName": "Robert",
+      "lastName": "Thomas",
+      "address": "753 Cherry St",
+      "phone": "555-0133",
+      "number": "EMP011",
+      "position": "Scrum Master"
+    },
+    {
+      "id": 12,
+      "firstName": "Jessica",
+      "lastName": "Moore",
+      "address": "951 Poplar Ln",
+      "phone": "555-0134",
+      "number": "EMP012",
+      "position": "Data Scientist"
+    },
+    {
+      "id": 13,
+      "firstName": "William",
+      "lastName": "Jackson",
+      "address": "357 Beech Rd",
+      "phone": "555-0135",
+      "number": "EMP013",
+      "position": "Cloud Engineer"
+    },
+    {
+      "id": 14,
+      "firstName": "Elizabeth",
+      "lastName": "White",
+      "address": "246 Willow Dr",
+      "phone": "555-0136",
+      "number": "EMP014",
+      "position": "Security Engineer"
+    },
+    {
+      "id": 15,
+      "firstName": "Daniel",
+      "lastName": "Harris",
+      "address": "135 Cypress Ave",
+      "phone": "555-0137",
+      "number": "EMP015",
+      "position": "Mobile Developer"
+    },
+    {
+      "id": 16,
+      "firstName": "Mary",
+      "lastName": "Martin",
+      "address": "468 Sycamore St",
+      "phone": "555-0138",
+      "number": "EMP016",
+      "position": "UI Designer"
+    },
+    {
+      "id": 17,
+      "firstName": "Christopher",
+      "lastName": "Thompson",
+      "address": "791 Redwood Rd",
+      "phone": "555-0139",
+      "number": "EMP017",
+      "position": "Database Administrator"
+    },
+    {
+      "id": 18,
+      "firstName": "Michelle",
+      "lastName": "Garcia",
+      "address": "024 Magnolia Blvd",
+      "phone": "555-0140",
+      "number": "EMP018",
+      "position": "Technical Lead"
+    },
+    {
+      "id": 19,
+      "firstName": "Kevin",
+      "lastName": "Martinez",
+      "address": "357 Juniper Ln",
+      "phone": "555-0141",
+      "number": "EMP019",
+      "position": "Solutions Architect"
+    },
+    {
+      "id": 20,
+      "firstName": "Amanda",
+      "lastName": "Robinson",
+      "address": "680 Dogwood Dr",
+      "phone": "555-0142",
+      "number": "EMP020",
+      "position": "IT Manager"
+    }
+  ]
+}
